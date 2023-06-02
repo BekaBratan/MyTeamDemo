@@ -1,0 +1,33 @@
+body {
+    padding: 0 20vw;
+}
+
+hgroup {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    gap: 30%;
+    width: 100%;
+}
+
+hgroup h1 {
+    font-size: 36px;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'PT Serif', serif;
+    min-width: 30%;
+}
+
+hgroup h3 {
+    text-transform: uppercase;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 33%;
+}
