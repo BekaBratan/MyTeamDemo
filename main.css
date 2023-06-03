@@ -1,5 +1,5 @@
 body {
-    padding: 0 20vw;
+    padding: 50px 20vw;
 }
 
 hgroup {
@@ -14,7 +14,6 @@ hgroup {
 
 hgroup h1 {
     font-size: 36px;
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'PT Serif', serif;
     min-width: 30%;
 }
@@ -66,14 +65,9 @@ img {
     font-weight: bold;
 }
 
-@media screen and (max-width: 900px) {
-    main > div {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
 footer {
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
     color: gray;
 }
 
@@ -81,8 +75,18 @@ footer a {
     color: gray;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     main > div {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    hgroup {
+        flex-direction: column;
+    }
+
+    body {
+        padding-top: 100px;
+        padding-left: 5vw;
+        padding-right: 5vw;
     }
 }
